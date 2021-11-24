@@ -1,0 +1,103 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="format-detection" content="telephone=no"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><link rel="icon" href="/images/icons/favicon-16x16.png?v=2.6.2" type="image/png" sizes="16x16"><link rel="icon" href="/images/icons/favicon-32x32.png?v=2.6.2" type="image/png" sizes="32x32"><link rel="apple-touch-icon" href="/images/icons/apple-touch-icon.png?v=2.6.2" sizes="180x180"><meta name="description" content="历尽千辛万苦之后的第一篇博客">
+<meta property="og:type" content="article">
+<meta property="og:title" content="用HUGO和GitHub搭建个人博客">
+<meta property="og:url" content="http://example.com/2018/10/24/Hugo_Github/index.html">
+<meta property="og:site_name" content="晚安">
+<meta property="og:description" content="历尽千辛万苦之后的第一篇博客">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2018-10-24T13:38:55.000Z">
+<meta property="article:modified_time" content="2021-11-24T07:46:40.589Z">
+<meta property="article:author" content="W4ngch3n">
+<meta property="article:tag" content="Hugo">
+<meta name="twitter:card" content="summary"><title>用HUGO和GitHub搭建个人博客 | 晚安</title><link ref="canonical" href="http://example.com/2018/10/24/Hugo_Github/"><link rel="dns-prefetch" href="https://cdn.jsdelivr.net"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.12.1/css/all.min.css" type="text/css"><link rel="stylesheet" href="/css/index.css?v=2.6.2"><script>var Stun = window.Stun || {};
+var CONFIG = {
+  root: '/',
+  algolia: undefined,
+  assistSearch: undefined,
+  fontIcon: {"prompt":{"success":"fas fa-check-circle","info":"fas fa-arrow-circle-right","warning":"fas fa-exclamation-circle","error":"fas fa-times-circle"},"copyBtn":"fas fa-copy"},
+  sidebar: {"offsetTop":"20px","tocMaxDepth":6},
+  header: {"enable":true,"showOnPost":true,"scrollDownIcon":false},
+  postWidget: {"endText":true},
+  nightMode: {"enable":true},
+  back2top: {"enable":true},
+  codeblock: {"style":"default","highlight":"light","wordWrap":false},
+  reward: false,
+  fancybox: false,
+  zoomImage: {"gapAside":"20px"},
+  galleryWaterfall: undefined,
+  lazyload: false,
+  pjax: undefined,
+  externalLink: {"icon":{"enable":true,"name":"fas fa-external-link-alt"}},
+  shortcuts: undefined,
+  prompt: {"copyButton":"Copy","copySuccess":"Copy Success","copyError":"Copy Error"},
+  sourcePath: {"js":"js","css":"css","images":"images"},
+};
+
+window.CONFIG = CONFIG;</script><meta name="generator" content="Hexo 5.4.0"></head><body><div class="container" id="container"><header class="header" id="header"><div class="header-inner"><nav class="header-nav header-nav--fixed"><div class="header-nav-inner"><div class="header-nav-menubtn"><i class="fas fa-bars"></i></div><div class="header-nav-menu"><div class="header-nav-menu-item"><a class="header-nav-menu-item__link" href="/"><span class="header-nav-menu-item__icon"><i class="fas fa-home"></i></span><span class="header-nav-menu-item__text">Home</span></a></div><div class="header-nav-menu-item"><a class="header-nav-menu-item__link" href="/archives/"><span class="header-nav-menu-item__icon"><i class="fas fa-folder-open"></i></span><span class="header-nav-menu-item__text">Archives</span></a></div><div class="header-nav-menu-item"><a class="header-nav-menu-item__link" href="/categories/"><span class="header-nav-menu-item__icon"><i class="fas fa-layer-group"></i></span><span class="header-nav-menu-item__text">Categories</span></a></div><div class="header-nav-menu-item"><a class="header-nav-menu-item__link" href="/tags/"><span class="header-nav-menu-item__icon"><i class="fas fa-tags"></i></span><span class="header-nav-menu-item__text">Tags</span></a></div><div class="header-nav-menu-item"><a class="header-nav-menu-item__link" href="/about/"><span class="header-nav-menu-item__icon"><i class="fas fa-about"></i></span><span class="header-nav-menu-item__text">About</span></a></div></div><div class="header-nav-mode"><div class="mode"><div class="mode-track"><span class="mode-track-moon"></span><span class="mode-track-sun"></span></div><div class="mode-thumb"></div></div></div></div></nav><div class="header-banner"><div class="header-banner-info"><div class="header-banner-info__title">晚安</div><div class="header-banner-info__subtitle"> 还我月亮。</div></div></div></div></header><main class="main" id="main"><div class="main-inner"><div class="content-wrap" id="content-wrap"><div class="content" id="content"><!-- Just used to judge whether it is an article page--><div id="is-post"></div><div class="post"><header class="post-header"><h1 class="post-title">用HUGO和GitHub搭建个人博客</h1><div class="post-meta"><span class="post-meta-item post-meta-item--createtime"><span class="post-meta-item__icon"><i class="far fa-calendar-plus"></i></span><span class="post-meta-item__info">Created</span><span class="post-meta-item__value">2018-10-24</span></span><span class="post-meta-item post-meta-item--updatetime"><span class="post-meta-item__icon"><i class="far fa-calendar-check"></i></span><span class="post-meta-item__info">Updated</span><span class="post-meta-item__value">2021-11-24</span></span></div></header><div class="post-body"><p>历尽千辛万苦之后的第一篇博客</p>
+<span id="more"></span>
+
+
+        <h1 id="HUGO配合GITHUB搭建博客-WIN-10">
+          <a href="#HUGO配合GITHUB搭建博客-WIN-10" class="heading-link"><i class="fas fa-link"></i></a><a href="#HUGO配合GITHUB搭建博客-WIN-10" class="headerlink" title="HUGO配合GITHUB搭建博客(WIN 10)"></a>HUGO配合GITHUB搭建博客(WIN 10)</h1>
+      
+        <h2 id="前序">
+          <a href="#前序" class="heading-link"><i class="fas fa-link"></i></a><a href="#前序" class="headerlink" title="前序"></a>前序</h2>
+      <p>以前从来没写过博客，更别说自己徒手搭一个博客了，博主是一个懒得不能再懒的文笔烂到不行的理科生，但是为了养成一个及时整理自己学到的知识和资料的好习惯，赶鸭子上架，现学现卖。</p>
+<p>协会部门的大多数人们都用了Wordpress或者Hexo+Github搭建的博客，我不知道脑子抽的什么风，有好好的教程不直接参考，反而另辟蹊径选择了Hugo，周围的人都没用过，可怜的我只能通过咀嚼百度上为数不多的文章来自己动手，幸运的是，我已经成功了~qwq</p>
+<p>废话不多说，切入正题~</p>
+
+        <h2 id="HUGO">
+          <a href="#HUGO" class="heading-link"><i class="fas fa-link"></i></a><a href="#HUGO" class="headerlink" title="HUGO"></a>HUGO</h2>
+      <p>Hugo是一个用Go语言编写的静态网站生成器，很适合专心写博文不用管服务器的人用，如果你正想在GitHub上搭建个人静态博客，不妨试一试。</p>
+
+        <h3 id="1-HUGO安装">
+          <a href="#1-HUGO安装" class="heading-link"><i class="fas fa-link"></i></a><a href="#1-HUGO安装" class="headerlink" title="1.HUGO安装"></a>1.HUGO安装</h3>
+      <p><span class="exturl"><a class="exturl__link" target="_blank" rel="noopener" href="https://github.com/gohugoio/hugo/releases">直接上链接</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span>，我安装的是v0.49.2版本的。</p>
+<p>下载完成后，开始安装，安装完成后，将Hugo添加到环境变量中，添加后，</p>
+<p>cmd中查看版本信息，显示以下即安装成功：</p>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hugo version</span><br><span class="line">Hugo Static Site Generator v0.49.2 windows/amd64</span><br></pre></td></tr></table></div></figure>
+
+
+        <h3 id="2-创建新网站">
+          <a href="#2-创建新网站" class="heading-link"><i class="fas fa-link"></i></a><a href="#2-创建新网站" class="headerlink" title="2.创建新网站"></a>2.创建新网站</h3>
+      <figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hugo new site myBlog</span><br></pre></td></tr></table></div></figure>
+
+
+        <h3 id="3-添加主题（以HUGO-FUTURE-IMPERFECT为例）">
+          <a href="#3-添加主题（以HUGO-FUTURE-IMPERFECT为例）" class="heading-link"><i class="fas fa-link"></i></a><a href="#3-添加主题（以HUGO-FUTURE-IMPERFECT为例）" class="headerlink" title="3.添加主题（以HUGO-FUTURE-IMPERFECT为例）"></a>3.添加主题（以HUGO-FUTURE-IMPERFECT为例）</h3>
+      <figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ cd myBlog/themes</span><br><span class="line">$ git clone https://github.com/jpescador/hugo-future-imperfect.git</span><br></pre></td></tr></table></div></figure>
+
+<p>当然你可以选择自己喜欢的博客主题，Hugo提供很多<span class="exturl"><a class="exturl__link" target="_blank" rel="noopener" href="https://themes.gohugo.io/">主题</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span>。</p>
+
+        <h3 id="4-复制主题标准样式的配置文件及资源文件到对应路径下：">
+          <a href="#4-复制主题标准样式的配置文件及资源文件到对应路径下：" class="heading-link"><i class="fas fa-link"></i></a><a href="#4-复制主题标准样式的配置文件及资源文件到对应路径下：" class="headerlink" title="4.复制主题标准样式的配置文件及资源文件到对应路径下："></a>4.复制主题标准样式的配置文件及资源文件到对应路径下：</h3>
+      <figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ cd ~/myBlog/themes/hugo-future-imperfect/exampleSite</span><br><span class="line">$ cp config.toml ~/myBlog/</span><br><span class="line">$ cp -r static ~/myBlog/static</span><br><span class="line">$ cp -r content ~/myBlog/content</span><br></pre></td></tr></table></div></figure>
+
+
+        <h3 id="5-适当修改CONFIG-TOML的内容，在-CONTENT-目录下添加新的-MD文件可以发表新文章。">
+          <a href="#5-适当修改CONFIG-TOML的内容，在-CONTENT-目录下添加新的-MD文件可以发表新文章。" class="heading-link"><i class="fas fa-link"></i></a><a href="#5-适当修改CONFIG-TOML的内容，在-CONTENT-目录下添加新的-MD文件可以发表新文章。" class="headerlink" title="5.适当修改CONFIG.TOML的内容，在/CONTENT/目录下添加新的.MD文件可以发表新文章。"></a>5.适当修改CONFIG.TOML的内容，在/CONTENT/目录下添加新的.MD文件可以发表新文章。</h3>
+      
+        <h3 id="6-测试网站">
+          <a href="#6-测试网站" class="heading-link"><i class="fas fa-link"></i></a><a href="#6-测试网站" class="headerlink" title="6.测试网站"></a>6.测试网站</h3>
+      <figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hugo server</span><br></pre></td></tr></table></div></figure>
+
+<p>打开<code>http://localhost:1313/</code>查看修改后的网页内容。</p>
+<p>7.发布网站</p>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hugo --theme=hugo-future-imperfect --baseUrl=&quot;https://yourname.github.io/&quot;</span><br></pre></td></tr></table></div></figure>
+
+<p>此时，在<code>~/myBlog</code>目录下会创建一个<code>public</code>的文件夹，将此文件夹下的所有内容<code>git push</code>到<code>github</code>上的<code>yourname.github.io</code>仓库即可把博客部署到<code>Github Pages</code>中。</p>
+<p>部署代码：</p>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">$ mkdir ~/github.io/yourname.github.io/</span><br><span class="line">$ cd ~/myBlog/public/</span><br><span class="line">$ cp -r . ~/github.io/yourname.github.io/</span><br><span class="line">$ cd github.io/yourname.github.io/</span><br><span class="line">$ git init</span><br><span class="line">$ git status</span><br><span class="line">$ git add .</span><br><span class="line">$ git commit -m &quot;add new article&quot;</span><br><span class="line">$ git push https://github.com/yourname/yourname.github.io.git master</span><br></pre></td></tr></table></div></figure>
+
+<p>然后我们的第一个<code>Hugo</code>个人博客就成功部署到<code>GitHub</code>上啦！</p>
+<p>以后添加新文章时，只需要重新编辑<code>~/myBlog/content</code>上的文章内容，然后发布文章，将更新后的<code>public</code>文件夹内容重新提交到<code>GitHub</code>仓库上。</p>
+</div><footer class="post-footer"><div class="post-ending ending"><div class="ending__text">------ END ------</div></div><div class="post-copyright copyright"><div class="copyright-author"><span class="copyright-author__name">Author: </span><span class="copyright-author__value"><a href="http://example.com">W4ngch3n</a></span></div><div class="copyright-link"><span class="copyright-link__name">Link: </span><span class="copyright-link__value"><a href="http://example.com/2018/10/24/Hugo_Github/">http://example.com/2018/10/24/Hugo_Github/</a></span></div><div class="copyright-notice"><span class="copyright-notice__name">Copyright: </span><span class="copyright-notice__value">All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" rel="external nofollow" target="_blank">BY-NC-SA</a> unless stating additionally</span></div></div><div class="post-tags"><span class="post-tags-item"><span class="post-tags-item__icon"><i class="fas fa-tag"></i></span><a class="post-tags-item__link" href="http://example.com/tags/Hugo/">Hugo</a></span></div><nav class="post-paginator paginator"><div class="paginator-prev"><a class="paginator-prev__link" href="/2018/10/29/wandou_ctf_wp/"><span class="paginator-prev__icon"><i class="fas fa-angle-left"></i></span><span class="paginator-prev__text">豌豆杯CTF的部分题目WP</span></a></div></nav></footer></div></div></div><div class="sidebar-wrap" id="sidebar-wrap"><aside class="sidebar" id="sidebar"><div class="sidebar-nav"><span class="sidebar-nav-toc current">Catalog</span><span class="sidebar-nav-ov">Overview</span></div><section class="sidebar-toc"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#HUGO%E9%85%8D%E5%90%88GITHUB%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2-WIN-10"><span class="toc-number">1.</span> <span class="toc-text">
+          HUGO配合GITHUB搭建博客(WIN 10)</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%89%8D%E5%BA%8F"><span class="toc-number">1.1.</span> <span class="toc-text">
+          前序</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#HUGO"><span class="toc-number">1.2.</span> <span class="toc-text">
+          HUGO</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-HUGO%E5%AE%89%E8%A3%85"><span class="toc-number">1.2.1.</span> <span class="toc-text">
+          1.HUGO安装</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-%E5%88%9B%E5%BB%BA%E6%96%B0%E7%BD%91%E7%AB%99"><span class="toc-number">1.2.2.</span> <span class="toc-text">
+          2.创建新网站</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-%E6%B7%BB%E5%8A%A0%E4%B8%BB%E9%A2%98%EF%BC%88%E4%BB%A5HUGO-FUTURE-IMPERFECT%E4%B8%BA%E4%BE%8B%EF%BC%89"><span class="toc-number">1.2.3.</span> <span class="toc-text">
+          3.添加主题（以HUGO-FUTURE-IMPERFECT为例）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-%E5%A4%8D%E5%88%B6%E4%B8%BB%E9%A2%98%E6%A0%87%E5%87%86%E6%A0%B7%E5%BC%8F%E7%9A%84%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E5%8F%8A%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6%E5%88%B0%E5%AF%B9%E5%BA%94%E8%B7%AF%E5%BE%84%E4%B8%8B%EF%BC%9A"><span class="toc-number">1.2.4.</span> <span class="toc-text">
+          4.复制主题标准样式的配置文件及资源文件到对应路径下：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#5-%E9%80%82%E5%BD%93%E4%BF%AE%E6%94%B9CONFIG-TOML%E7%9A%84%E5%86%85%E5%AE%B9%EF%BC%8C%E5%9C%A8-CONTENT-%E7%9B%AE%E5%BD%95%E4%B8%8B%E6%B7%BB%E5%8A%A0%E6%96%B0%E7%9A%84-MD%E6%96%87%E4%BB%B6%E5%8F%AF%E4%BB%A5%E5%8F%91%E8%A1%A8%E6%96%B0%E6%96%87%E7%AB%A0%E3%80%82"><span class="toc-number">1.2.5.</span> <span class="toc-text">
+          5.适当修改CONFIG.TOML的内容，在&#x2F;CONTENT&#x2F;目录下添加新的.MD文件可以发表新文章。</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#6-%E6%B5%8B%E8%AF%95%E7%BD%91%E7%AB%99"><span class="toc-number">1.2.6.</span> <span class="toc-text">
+          6.测试网站</span></a></li></ol></li></ol></li></ol></section><!-- ov = overview--><section class="sidebar-ov hide"><div class="sidebar-ov-author"><div class="sidebar-ov-author__avatar"><img class="sidebar-ov-author__avatar_img" src="/images/icons/safari-pinned-tab.svg" alt="avatar"></div><p class="sidebar-ov-author__text">W4ngch3n</p></div><div class="sidebar-ov-state"><a class="sidebar-ov-state-item sidebar-ov-state-item--posts" href="/archives/"><div class="sidebar-ov-state-item__count">5</div><div class="sidebar-ov-state-item__name">Archives</div></a><a class="sidebar-ov-state-item sidebar-ov-state-item--categories" href="/categories/"><div class="sidebar-ov-state-item__count">3</div><div class="sidebar-ov-state-item__name">Categories</div></a><a class="sidebar-ov-state-item sidebar-ov-state-item--tags" href="/tags/"><div class="sidebar-ov-state-item__count">6</div><div class="sidebar-ov-state-item__name">Tags</div></a></div><div class="sidebar-ov-cc"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" target="_blank" rel="noopener" data-popover="Creative Commons" data-popover-pos="up"><img src="/images/cc-by-nc-sa.svg"></a></div></section><div class="sidebar-reading"><div class="sidebar-reading-info"><span class="sidebar-reading-info__text">You have read </span><span class="sidebar-reading-info__num">0</span><span class="sidebar-reading-info__perc">%</span></div><div class="sidebar-reading-line"></div></div></aside></div><div class="clearfix"></div></div></main><footer class="footer" id="footer"><div class="footer-inner"><div><span>Copyright © 2021</span><span class="footer__icon"><i class="fas fa-heart"></i></span><span>W4ngch3n</span></div><div><span>Powered by <a href="http://hexo.io/" title="Hexo" target="_blank" rel="noopener">Hexo</a></span><span> v5.4.0</span><span class="footer__devider">|</span><span>Theme - <a href="https://github.com/liuyib/hexo-theme-stun/" title="Stun" target="_blank" rel="noopener">Stun</a></span><span> v2.6.2</span></div></div></footer><div class="loading-bar" id="loading-bar"><div class="loading-bar__progress"></div></div><div class="back2top" id="back2top"><span class="back2top__icon"><i class="fas fa-rocket"></i></span></div></div><script src="https://cdn.jsdelivr.net/npm/jquery@v3.4.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.2/velocity.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.2/velocity.ui.min.js"></script><script src="/js/utils.js?v=2.6.2"></script><script src="/js/stun-boot.js?v=2.6.2"></script><script src="/js/scroll.js?v=2.6.2"></script><script src="/js/header.js?v=2.6.2"></script><script src="/js/sidebar.js?v=2.6.2"></script></body></html>
